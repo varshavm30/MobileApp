@@ -1,0 +1,277 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	line-height: 1.5;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+.hero-section{
+	background-image: linear-gradient( rgb(218, 51, 45, 0.6), rgb(218, 51, 45, 0.6)), url('../images/bg-1.jpg');
+    padding: 45px 0 65px;	
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	overflow: hidden;
+}
+ 
+.hero-section .logo{
+	margin-bottom: 140px;
+}
+.hero-section .navbar ul{
+	padding-top: 15px
+}
+.hero-section .mob-img{
+	position: relative;
+}
+
+.hero-section .mob-img img{
+	position: absolute;
+	right: 0;
+	top: -40px;
+}
+
+.hero-section .navbar ul li{
+	display: inline-block;
+	margin-left: 10px;
+}
+.hero-section .navbar ul li a{
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 10px;
+	text-transform: uppercase;
+	position: relative;
+}
+.hero-section .navbar ul li a::after{
+	content: '';
+	width: 0;
+	height: 3px; 
+	background-color: #fff;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	transition: all 0.5s ease-in-out;
+}
+.hero-section .navbar ul li a:hover::after{
+	width: 100%;
+}
+
+.hero-section .cta-info h2{
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 52px;
+	text-transform: uppercase;
+	margin-bottom: 60px;
+}
+
+.cta-info p{
+	color: #ffffff;
+	font-size: 36px;
+	font-weight: 400;
+	margin-bottom: 50px;
+}
+
+.cta-info a{
+	color: #fff;
+	background-color: #282828;
+	font-size: 17px;
+	font-weight: bold;
+	padding: 15px 50px 15px 35px;
+	border-radius: 45px;
+}
+
+.cta-info a i{
+	font-size: 45px;
+	vertical-align: middle;
+	margin-right: 25px;
+	text-transform: uppercase;
+}
+/*-------------------Hero section End----------------*/
+
+.app-features{
+	padding: 85px 0 100px;
+}
+
+.heading-features h1{
+	font-size: 52px;
+	font-weight: bold;
+	color: #8a8a8a;
+	text-transform: uppercase;
+	margin-bottom: 45px;
+}
+.heading-features p{
+	font-size: 22px;
+	font-weight: 400px;
+	color: #3a3a3a;
+	margin-bottom: 65px;
+}
+.features-info figure{ 
+    width: 180px;
+	height: 180px;
+	margin: 0 auto 40px;
+}
+.features-info figure img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.features-info h2{
+	font-size: 24;
+	font-weight: bold;
+	color: 1a1a1a;
+	text-transform: uppercase;
+	margin-bottom: 45px;
+}
+.features-info p{
+	font-size: 18px;
+	font-weight: 400;
+	color: #646464;
+}
+
+/*-------------------Features section End--------------*/
+.fruit-cake{
+	padding: 190px 0 170px;
+	background: url('../images/bg-2.jpg');
+	background-repeat: no repeat;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
+.fruit-cake h2{
+	font-size: 52px;
+	font-weight: bold;
+	color: #fff;
+	text-transform: uppercase;
+	margin-bottom: 55px;
+}
+.fruit-cake p{
+	font-size: 24px;
+	color: #585858;
+	font-weight: 400;
+	margin-bottom: 75px;
+}
+.fruit-cake a{
+	font-size: 15px;
+	color: #fff;
+	padding: 20px 25px;
+	background-color: #d9332d;
+	font-weight: 900;
+	text-transform: uppercase;
+	border-radius: 40px;
+	border: 1px solid #d9332d;
+	transition: all 0.5s ease-in-out;
+}
+
+.fruit-cake a:hover{
+    color: #d9332d;
+	background-color: #fff;
+	border: 1px solid #d9332d;
+}
+
+/*-------------------fruit-cake section End--------------*/
+
+.tfoot-section{
+	padding: 120px 0 150px;
+	background-color: #2e2e38;
+}
+.tfoot-section .footer-logo{
+	margin-bottom: 60px;
+}
+.footer-list h4{
+	font-size: 20px;
+	font-weight: bold;
+	color: #fff;
+	text-transform: capitalize;
+	margin-bottom: 25px;
+	
+}
+.footer-list ul li .box{
+	width: 55px;
+	height: 40px;
+	background-color: #d9332d;
+}
+.footer-list ul li{
+	display: table;
+	width: 100%;
+	clear: both;
+	margin-bottom: 25px;
+}
+.footer-list ul li div{
+	float: left;
+}
+.footer-list .fruitcake-info{
+	padding-top: 5px;
+	margin-left: 15px;
+}
+.footer-list .fruitcake-info p{
+	font-size: 15px;
+	font-weight: 400px;
+	color: #fff;
+	text-transform: capitalize;
+}
+.suits-list ul li{
+	font-size: 15px;
+	font-weight: bold;
+	color: #fff;
+	padding-top: 5px;
+}
+.suits-list ul .tweet-info{
+	font-size: 14px;
+	font-weight: 400;
+	width: 70%;
+}
+.suits-list ul li p{
+	font-size: 11px;
+	padding-top: 10px;
+}
+.footer-list .about-info{
+	font-size: 15px;
+	font-weight: 400;
+	color: #fff;
+	width: 75%;
+}
+footer{
+	padding: 40px;
+	background-color: #d7dedc;
+}
+.footer-info-section p, .social-icon{
+	display: inline-block;
+}
+.footer-info-section p{
+	font-size: 25px;
+	font-weight: 400;
+	color: #282828;
+	/*padding-right: 20px;
+	margin-right: 20px;*/
+}
+.footer-info-section p span{
+	margin: 0 20px 0;
+	
+}
+.footer-info-section p a{
+	color: #282828;
+}
+.social-icon a{
+	width: 30px;
+	height: 30px;
+	color: #fff;
+	display: inline-block;
+	background-color: #4661a0;
+	padding: 8px;
+	margin-right: 35px;	
+	border-radius: 5px;
+}
+.social-icon a:nth-child(2){
+	background-color: #d83778;
+}
+.social-icon a:nth-child(3){
+	background-color: #a0e6e9;
+}
+
+.social-icon a i{
+	font-size: 18px;
+	
+}
